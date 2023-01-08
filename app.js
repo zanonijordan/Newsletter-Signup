@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({
 
 
 mailchimp.setConfig({
-  apiKey: '81faa76982ab61120eab6abd8749a8b7-us9',
-  server: 'us9',
+  apiKey: '',
+  server: '',
 });
 
 async function callPing() {
